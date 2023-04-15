@@ -1,7 +1,7 @@
 {
 	"name": "@appzic/js-helper-func",
 	"version": "0.0.0",
-	"description": "Maximizing JavaScript Minification with Browser-Specific Functions",
+	"description": "Vanila JavaScript DOM manipulation with maximizing minification",
 	"main": "dist/index.js",
 	"scripts": {
 		"test": "ts-node src/index.ts",
@@ -19,9 +19,8 @@
 	},
 	"homepage": "https://github.com/appzic/astro-reset-css#readme",
 	"keywords": [
-		"v8",
-		"javascript",
-		"web-brower",
+		"vanilla-javascript",
+		"dom-manipulation",
 		"minify-javascript"
 	],
 	"author": "Yasitha Nadeeshan",
