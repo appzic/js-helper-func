@@ -3,6 +3,7 @@
 
 # include these:
 !/dist/**/*
+!LICENSE
 !README.md
 
 # exclude hidden files from the includes:
