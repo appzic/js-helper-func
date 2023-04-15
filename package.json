@@ -14,6 +14,10 @@
 		"type": "git",
 		"url": "https://github.com/appzic/js-helper-func.git"
 	},
+	"bugs": {
+		"url": "https://github.com/appzic/astro-reset-css/issues"
+	},
+	"homepage": "https://github.com/appzic/astro-reset-css#readme",
 	"keywords": [
 		"v8",
 		"javascript",
