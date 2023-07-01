@@ -1,8 +1,6 @@
 {
     "name": "js-helper-func-container",
-    "build": {
-        "dockerfile": "Dockerfile"
-    },
+    "image": "rmyasi/devcontainer:node-16.x",
     "customizations": {
         "vscode": {
             "settings": {
