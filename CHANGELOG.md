@@ -1,5 +1,11 @@
 # @appzic/js-helper-func
 
+## 1.1.1
+
+### Patch Changes
+
+- Forgot to build in v1.1.0
+
 ## 1.1.0
 
 ### Minor Changes

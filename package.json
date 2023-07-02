@@ -1,6 +1,6 @@
 {
 	"name": "@appzic/js-helper-func",
-	"version": "1.1.0",
+	"version": "1.1.1",
 	"description": "Vanila JavaScript DOM manipulation with maximizing minification",
 	"main": "dist/index.js",
 	"scripts": {
