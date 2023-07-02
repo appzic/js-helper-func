@@ -1,16 +1,17 @@
 // https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
-export const addEventListener = (
+
+export const addEventListener = <K extends keyof HTMLElementEventMap>(
 	element: HTMLElement,
-	type: string,
+	type: K,
 	listener: EventListenerOrEventListenerObject,
 	options?: boolean | AddEventListenerOptions
 ): void => {
 	element.addEventListener(type, listener, options);
 };
 
-export const addEventListenerMulti = (
+export const addEventListenerMulti = <K extends keyof HTMLElementEventMap>(
 	element: HTMLElement,
-	types: Array<string>,
+	types: Array<K>,
 	listener: EventListenerOrEventListenerObject,
 	options?: boolean | AddEventListenerOptions
 ): void => {
@@ -19,16 +20,16 @@ export const addEventListenerMulti = (
 	});
 };
 
-export const addEventListenerToDocument = (
-	type: string,
+export const addEventListenerToDocument = <K extends keyof HTMLElementEventMap>(
+	type: K,
 	listener: EventListenerOrEventListenerObject,
 	options?: boolean | AddEventListenerOptions
 ): void => {
 	document.addEventListener(type, listener, options);
 };
 
-export const addEventListenerToWindow = (
-	type: string,
+export const addEventListenerToWindow = <K extends keyof HTMLElementEventMap>(
+	type: K,
 	listener: EventListenerOrEventListenerObject,
 	options?: boolean | AddEventListenerOptions
 ): void => {
