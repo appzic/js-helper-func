@@ -64,4 +64,4 @@ We welcome contributions from the community! Please take a look at our [CONTRIBU
 
 ## License
 
-**Astro RESET CSS** is licensed under the [MIT](LICENSE) License.
+[MIT](LICENSE) License.
