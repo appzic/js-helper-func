@@ -1,5 +1,11 @@
 # @appzic/js-helper-func
 
+## 1.1.3
+
+### Patch Changes
+
+- Reexport functions one by one
+
 ## 1.1.2
 
 ### Patch Changes
