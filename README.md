@@ -18,10 +18,10 @@
 - [Table of Contents](#table-of-contents)
 - [Introduction](#introduction)
 - [Functions](#functions)
-  - [Event Related functions](#event-related-functions)
-  - [Element Related Functions](#element-related-functions)
-  - [Attribute Related Functions](#attribute-related-functions)
-  - [Class Related Functrions](#class-related-functrions)
+  - [Event related functions](#event-related-functions)
+  - [Element related Functions](#element-related-functions)
+  - [Attribute related Functions](#attribute-related-functions)
+  - [Class related Functrions](#class-related-functrions)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -31,89 +31,32 @@ By providing browser-specific functions for commonly used DOM manipulations, "@a
 
 ## Functions
 
-### Event Related functions
+### Event related functions
 
-```typescript
-addEventListener: (
-    element: HTMLElement,
-    type: string,
-    listener: EventListenerOrEventListenerObject,
-    options?: boolean | AddEventListenerOptions
-) => void;
+- `addEventListener`
+- `addEventListenerMulti`
+- `addEventListenerToDocument`
+- `addEventListenerToWindow`
 
-addEventListenerMulti: (
-    element: HTMLElement,
-    types: Array<string>,
-    listener: EventListenerOrEventListenerObject,
-    options?: boolean | AddEventListenerOptions
-) => void;
-```
+### Element related Functions
 
-### Element Related Functions
+- `getElementById`
+- `querySelectorFromElement`
+- `createElement`
+- `createCustomElement`
 
-```typescript
-getElementById: (id: string) => HTMLElement | null;
+### Attribute related Functions
 
-querySelectorFromElement: (element: HTMLElement, qurry: string) => HTMLElement;
+- `setAttributes`
+- `getAttribute`
+- `hasAttribute`
 
-createElement: (
-	tagName: keyof HTMLElementTagNameMap,
-	attributes?:
-		| {
-				[key: string]: string;
-		  }
-		| undefined,
-	classes?: Array<string>
-) => HTMLElement;
+### Class related Functrions
 
-createCustomElement: (
-	name: string,
-	constructor: CustomElementConstructor,
-	options?: ElementDefinitionOptions
-) => void;
-```
-
-### Attribute Related Functions
-
-```typescript
-setAttributes: (
-    element: HTMLElement,
-    attributes: {
-        [key: string]: string;
-    }
-) => void;
-
-getAttribute: (
-    element: HTMLElement,
-    attribute: string
-) => string | null;
-
-hasAttribute: (
-    element: HTMLElement,
-    attribute: string
-) => boolean;
-
-```
-
-### Class Related Functrions
-
-```typescript
-addClasses: (
-    element: HTMLElement,
-    classes: Array<string>
-) => void;
-
-removeClasses: (
-    element: HTMLElement,
-    classes: Array<string>
-) => void;
-
-hasClass: (
-    element: HTMLElement,
-    className: string
-) => boolean;
-
-```
+- `addClasses`
+- `removeClasses`
+- `hasClass`
+- `toggleClass`
 
 ## Contributing
 
