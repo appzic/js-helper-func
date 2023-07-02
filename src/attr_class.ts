@@ -19,3 +19,7 @@ export const removeClasses = (
 export const hasClass = (element: HTMLElement, className: string): boolean => {
 	return element.classList.contains(className);
 };
+
+export const toggleClass = (element: HTMLElement, className: string): void => {
+	element.classList.toggle(className);
+};
